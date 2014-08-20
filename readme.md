@@ -5,7 +5,7 @@ Import earthquakes into dat.
 
 ## Install
 
-You should have dat globally installed `dat install dat -g`.
+You should have dat globally installed `npm install dat -g`.
 ```
 git clone https://github.com/finnp/dat-usgs-earthquakes.git
 cd dat-usgs-earthquakes
