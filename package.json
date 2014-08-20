@@ -14,6 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "dat init && dat listen --port=$PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
