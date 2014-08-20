@@ -1,6 +1,6 @@
 {
   "name": "dat-usgs-earthquakes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Importing USGS earthquake reports into dat",
   "main": "index.js",
   "dependencies": {
