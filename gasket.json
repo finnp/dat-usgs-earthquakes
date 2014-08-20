@@ -1,0 +1,11 @@
+{
+  "fetch": [
+    "curl http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+    "json-select \"features.*\" --lines",
+    "jsonmap \"var data = this.properties; data.coordinates = this.geometry.coordinates; data.key = this.id; return data\""
+  ],
+  "import": [
+    "gasket run fetch",
+    "dat import --json"
+  ]
+}
