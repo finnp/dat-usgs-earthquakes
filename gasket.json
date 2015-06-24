@@ -6,6 +6,6 @@
   ],
   "import": [
     "gasket run fetch",
-    "dat import --json"
+    "dat import -d usgs-earthquakes -"
   ]
 }
