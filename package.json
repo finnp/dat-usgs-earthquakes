@@ -10,7 +10,7 @@
     "through2": "^0.6.1"
   },
   "optionalDependencies": {
-    "dat": "6.3.3"
+    "dat": "11.3.0"
   },
   "devDependencies": {},
   "scripts": {
